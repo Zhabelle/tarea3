@@ -1,0 +1,8 @@
+<div class="card individual">
+  <h2>{{animalname}}</h2>
+  <img src={{image}} alt=""><br>
+  {{#each properties}}
+  <span>{{this}}</span>
+  {{/each}}
+  <a href="/animals/{{id}}?adopt=1"><button class="adopt">Adopt</button></a>
+</div>

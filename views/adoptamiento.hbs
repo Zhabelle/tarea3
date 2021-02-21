@@ -1,0 +1,15 @@
+<div class="card individual"><br>
+    <div class="kk">
+        You're adopting <u>{{animalname}}</u>. Please write your user's id so we can register you on our database.
+        <br>Thank you for adopting!
+    </div><br>
+    <span>id <input id="inpu" type="text" data-kk="{{id}}"></input></span><br>
+    <a id="awa"><button class="adopt">Adopt</button></a>
+</div>
+
+<script>
+    var lakk=document.getElementById("inpu");
+    lakk.addEventListener("change",()=>{
+        console.log(document.getElementById("awa").href="/animals?animal="+lakk.getAttribute('data-kk')+"&owner="+lakk.value);
+    })
+</script>
