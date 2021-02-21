@@ -71,10 +71,4 @@ router.delete('/:id',async(req,res)=>{
   res.send("Usuario borrado<br/>"+JSON.stringify(user));*/
 });
 
-function getter(id) {
-  if(!id)return undefined;
-  let uwu=users.find(u=>u.id==id);
-  return uwu?uwu.name:undefined;
-}
-
 module.exports = router;

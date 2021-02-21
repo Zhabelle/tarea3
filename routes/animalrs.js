@@ -80,7 +80,7 @@ router.get('/:id', async(req, res) => {
 router.post('/',async(req,res)=>{
     const resp=schema.validate(req.body);
     if(resp.error)return res.status(400).send(resp.error.details[0].message);
-    const arr=Object.values({
+    const arr={
       id:++ID,
       animalname:req.body.animalname,
       breedname: req.body.breedname,
@@ -88,10 +88,10 @@ router.post('/',async(req,res)=>{
       speciesname: req.body.speciesname,
       animalage: req.body.animalage,
       owner_id: req.body.owner?req.body.owner:0
-    });
-    (await dbstuff).query('insert into animals values($1,$2,$3,$4,$5,$6,$7)',arr,(err,r)=>{
+    };
+    (await dbstuff).query('insert into animals values($1,$2,$3,$4,$5,$6,$7)',Object.values(arr),(err,r)=>{
       if(err)return res.status(400).send(err);
-      res.send('animal creado<br/>'+mappedAnimal(req.body));
+      res.send('animal creado<br/>'+JSON.stringify(arr));
     });
     /*animals.push(req.body);
     console.log(animals[animals.length-1]);
@@ -103,21 +103,13 @@ router.put('/:id',async(req,res)=>{
     const ans=req.body;
     const resp=schema.validate(ans);
     if(resp.error)return res.status(400).send(resp.error.details[0].message);
-    (await dbstuff).query(`update animals set 
-      animalname=$1,
-      breedname=$2,
-      basecolour=$3,
-      speciesname=$4,
-      animalage=$5,
-      owner_id=$6
-      where id=$7`,
-      [ans.animalname,
-        ans.breedname,
-        ans.basecolour,
-        ans.speciesname,
-        ans.animalage,
-        ans.owner_id,
-        id
+    (await dbstuff).query(`update animals set animalname=$1,
+      breedname=$2,basecolour=$3,
+      speciesname=$4,animalage=$5,
+      owner_id=$6 where id=$7`,
+      [
+        ans.animalname,ans.breedname,ans.basecolour,
+        ans.speciesname,ans.animalage,ans.owner_id,id
       ],(err,r)=>{
         if(err)return res.status(400).send(err);
         res.send('animal actualizado<br/>'+JSON.stringify(ans));
@@ -136,7 +128,7 @@ router.delete('/:id',async(req,res)=>{
     if(err)return res.status(400).send(err);
     const awa=r.rows[0];
     (await dbstuff).query('delete from animals where id=$1;',[id],(err2,r2)=>{
-      if(err2)return res.status(400).send(err);
+      if(err2)return res.status(400).send(err2);
       if(!awa)return res.status(404).send('not found');
       return res.send('animal eliminado<br/>'+JSON.stringify(awa));
     });
@@ -147,18 +139,5 @@ router.delete('/:id',async(req,res)=>{
     animals.splice(awa,1);
     res.send("animal borrado<br/>"+mappedAnimal(an,getter(an.owner)));*/
 });
-
-function mappedAnimal(a, owner){
-    const awa={
-        id:a.id,
-        animalname:a.animalname,
-        breedname:a.breedname,
-        basecolour:a.basecolour,
-        speciesname:a.speciesname,
-        animalage:a.animalage,
-        owner:owner?owner:""
-    };
-    return JSON.stringify(awa);
-}
 
 module.exports = router;

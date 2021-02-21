@@ -1,0 +1,264 @@
+{
+"animals": [
+	{
+		"id" : 47502,
+		"animalname" : "Zoey",
+		"breedname" : "Pitbull\/Mix",
+		"basecolour" : "Grey and White",
+		"speciesname" : "Dog",
+		"animalage" : "2 years 8 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 1,
+		"animalname" : "perririjillo",
+		"breedname" : "pug",
+		"basecolour" : "NEGRO",
+		"speciesname" : "Perro",
+		"animalage" : "doce milenios",
+		"owner_id" : 1
+	},
+	{
+		"id" : 31469,
+		"animalname" : "Bonnie",
+		"breedname" : "Basenji\/Mix",
+		"basecolour" : "Brown and White",
+		"speciesname" : "Dog",
+		"animalage" : "5 years 11 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 30812,
+		"animalname" : "Pretty Girl",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Dilute tortoiseshell",
+		"speciesname" : "Cat",
+		"animalage" : "8 years 11 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 28859,
+		"animalname" : "Maggie",
+		"breedname" : "Shep Mix\/Siberian Husky",
+		"basecolour" : "Various",
+		"speciesname" : "Dog",
+		"animalage" : "6 years 8 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 15932,
+		"animalname" : "Gonzo",
+		"breedname" : "German Shepherd Dog\/Mix",
+		"basecolour" : "Tan",
+		"speciesname" : "Dog",
+		"animalage" : "9 years 1 month.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 46238,
+		"animalname" : "Tennessee",
+		"breedname" : "Heeler\/Mix",
+		"basecolour" : "Brown and Black",
+		"speciesname" : "Dog",
+		"animalage" : "3 years 2 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 40705,
+		"animalname" : "Candy",
+		"breedname" : "American Sable\/American",
+		"basecolour" : "Brown",
+		"speciesname" : "House Rabbit",
+		"animalage" : "4 years 6 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 40706,
+		"animalname" : "Charlotte",
+		"breedname" : "American Sable\/American",
+		"basecolour" : "Brown",
+		"speciesname" : "House Rabbit",
+		"animalage" : "4 years 6 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 46437,
+		"animalname" : "Nova",
+		"breedname" : "Domestic Long Hair",
+		"basecolour" : "Black",
+		"speciesname" : "Cat",
+		"animalage" : "12 years 3 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 46693,
+		"animalname" : "Baby",
+		"breedname" : "Pitbull",
+		"basecolour" : "White",
+		"speciesname" : "Dog",
+		"animalage" : "4 years 1 month.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47120,
+		"animalname" : "Vivian",
+		"breedname" : "Himalayan",
+		"basecolour" : "Seal",
+		"speciesname" : "Cat",
+		"animalage" : "5 years 0 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47146,
+		"animalname" : "Dinah",
+		"breedname" : "Labrador Retriever\/Affenpinscher",
+		"basecolour" : "Black",
+		"speciesname" : "Dog",
+		"animalage" : "3 years 10 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47157,
+		"animalname" : "Hammer",
+		"breedname" : "American",
+		"basecolour" : "Black",
+		"speciesname" : "House Rabbit",
+		"animalage" : "3 years 10 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47198,
+		"animalname" : "Mama Mia",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Grey and White",
+		"speciesname" : "Cat",
+		"animalage" : "3 years 3 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47239,
+		"animalname" : "Maria",
+		"breedname" : "",
+		"basecolour" : "Brown and Black",
+		"speciesname" : "Dog",
+		"animalage" : "1 year 10 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47248,
+		"animalname" : "Mr. T",
+		"breedname" : "DMH\/DSH",
+		"basecolour" : "Black",
+		"speciesname" : "Cat",
+		"animalage" : "9 years 11 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47277,
+		"animalname" : "Coraline",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Brown and Black",
+		"speciesname" : "Cat",
+		"animalage" : "3 years 10 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47290,
+		"animalname" : "Montana",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Torbie",
+		"speciesname" : "Cat",
+		"animalage" : "3 years 4 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47156,
+		"animalname" : "Maxwell",
+		"breedname" : "American",
+		"basecolour" : "Black",
+		"speciesname" : "House Rabbit",
+		"animalage" : "3 years 10 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47360,
+		"animalname" : "Calli",
+		"breedname" : "DSH\/Unknown",
+		"basecolour" : "Various",
+		"speciesname" : "Cat",
+		"animalage" : "16 years 3 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47429,
+		"animalname" : "Ellen",
+		"breedname" : "British Shorthair\/Unknown",
+		"basecolour" : "Grey",
+		"speciesname" : "Cat",
+		"animalage" : "11 years 9 months.",
+		"owner_id" : 0
+	},
+	{
+		"id" : 47432,
+		"animalname" : "Fitzgerald",
+		"breedname" : "American",
+		"basecolour" : "Black",
+		"speciesname" : "House Rabbit",
+		"animalage" : "3 years 9 months.",
+		"owner_id" : 1
+	},
+	{
+		"id" : 15801,
+		"animalname" : "Pedro",
+		"breedname" : "Kakariko",
+		"basecolour" : "Amarillo",
+		"speciesname" : "Cat",
+		"animalage" : "15 milenios",
+		"owner_id" : 1
+	},
+	{
+		"id" : 47414,
+		"animalname" : "Beemo",
+		"breedname" : "Pitbull\/Mix",
+		"basecolour" : "Blue",
+		"speciesname" : "Dog",
+		"animalage" : "6 years 10 months.",
+		"owner_id" : 1
+	},
+	{
+		"id" : 47319,
+		"animalname" : "Louise Vada",
+		"breedname" : "Pitbull",
+		"basecolour" : "Black",
+		"speciesname" : "Dog",
+		"animalage" : "3 years 2 months.",
+		"owner_id" : 1
+	},
+	{
+		"id" : 47402,
+		"animalname" : "Precious",
+		"breedname" : "Shep Mix\/Mix",
+		"basecolour" : "Ruddy",
+		"speciesname" : "Dog",
+		"animalage" : "4 years 9 months.",
+		"owner_id" : 3
+	},
+	{
+		"id" : 47510,
+		"animalname" : "Maureen",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Brown and Black",
+		"speciesname" : "Cat",
+		"animalage" : "2 years 8 months.",
+		"owner_id" : 3
+	},
+	{
+		"id" : 47395,
+		"animalname" : "Gooseberry",
+		"breedname" : "Domestic Short Hair",
+		"basecolour" : "Tortie",
+		"speciesname" : "Cat",
+		"animalage" : "13 years 9 months.",
+		"owner_id" : 3
+	}
+]}
